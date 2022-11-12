@@ -31,7 +31,7 @@ test('analyzeArray (1)', () => {
         max: 10,
         length: 4
     })
-    });
+});
 
 test('analyzeArray (2)', () => { 
     expect(analyzeArray([33, 12, 9473, 5]))
@@ -41,6 +41,6 @@ test('analyzeArray (2)', () => {
         max: 9473,
         length: 4
     })
-    });
+});
 
 test('analyzeArray: empty array', () => expect(analyzeArray([])).toEqual({}));
